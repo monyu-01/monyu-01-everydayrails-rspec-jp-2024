@@ -1,25 +1,26 @@
-# *Everyday Rails Testing with RSpec* sample application (2024 Japanese edition)
+# Everyday Rails RSpec 学習用リポジトリ
 
-Sample Rails application for *[Everyday Rails Testing with RSpec](https://leanpub.com/everydayrailsrspec): A
-Practical Approach to Test-driven Development* by Aaron Sumner. This
-repository is the official fork for the 2024 Japanese edition.
+## はじめに
 
-----
-
-このリポジトリのRailsアプリは「 [Everyday Rails - RSpecによるRailsテスト入門](https://leanpub.com/everydayrailsrspec-jp/) 」のサンプルアプリケーション（Rails 7.1対応版）です。
-
-2022年更新の日本語版より、 [原著のソースコード](https://github.com/everydayrails/everydayrails-rspec-2017) をフォークし、日本語版独自にメンテナンスしていくことになりました。
+このリポジトリは、書籍『 [Everyday Rails - RSpecによるRailsテスト入門](https://leanpub.com/everydayrailsrspec-jp/) 』の教材をもとに、個人的な学習目的でクローン・運用しているものです。  
+※本リポジトリは自作ではなく、あくまで**学習・演習の記録用**として活用しています。
 
 <img width="323" alt="cover image" src="https://user-images.githubusercontent.com/1148320/149681452-f3308367-831d-44dc-8c0b-cd9ba795cc6e.jpg">
 
-このリポジトリでは既存のアプリケーションに対して、少しずつテストを追加していく過程を説明します。最初はまったくテストのないコードベースから始まり、
-モデルスペック、コントローラスペック、システムスペック、リクエストスペックと順に進みます。
+## 学習を始めた背景と目的
 
-このリポジトリの各ブランチを開くと、各章で追加したコードが確認できます。詳しくは本書の第1章をご覧ください。
+Railsでの開発において「コードの品質」「テストによる安全性・保守性の確保」に関心を持ったことが学習のきっかけです。  
+特に、Railsアプリの構造をより深く理解するためには、**RSpecによるテストの導入が有効である**と考え、本教材を使った学習を開始しました。
 
-Gitを使うとブランチ名を指定して各バージョンをチェックアウトできます。詳しくは本書をご覧ください。
+また、将来的に実務においてもテストコードを読む／書く機会が増えることを見越し、**学習初期段階からRSpecに慣れておくこと**を目的としています。
 
-Gitが苦手な方は、GitHubの便利な ブランチ機能を利用してください。
-フィルターで特定のブランチを選択し、オンラインでソースコードをブラウズすることができます。
+## 学習方針
 
-Gitについてもっと詳しく知りたい方は、無料で公開されている「 [Git Immersion](http://gitimmersion.com/) 」または「 [Try Git](http://www.codeschool.com/courses/try-git) 」（いずれも英語版）がお勧めです。
+| フェーズ | 学習内容 | 目標理解度 |
+|----------|----------|------------|
+| 第1週 | 教材に沿って記述しながら全体像を掴む | 約 4〜5割 |
+| 第2週 | 演習を通じて理解を深める | 約 7割 |
+| 第3週 | 自作ポートフォリオへのRSpec導入・実装 | 実践応用 |
+
+現在は第1週フェーズに取り組んでおります。
+
